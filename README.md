@@ -1,2 +1,2 @@
-# JAVASCRIPT_PRACTICE
-This Repository contains JavaScript code practice codes.
+# JavaScript-Practice
+This Repository contains JavaScript practice codes.
