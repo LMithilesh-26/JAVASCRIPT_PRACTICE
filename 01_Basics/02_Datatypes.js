@@ -29,3 +29,20 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello World")
 }
+
+/*
+    *********** Memory **********
+
+    Stack (Primitive): Copy of variable is declared in stack
+    Heap (Non-Primitive): Changes done in the heap variable will be done in the original variable.
+*/
+
+let userOne = {
+    name: "Mithilesh",
+    email: "mith@gmail.com",
+}
+
+let userTwo = userOne
+userTwo.email = "mith@google.com"
+
+console.log(userOne) // ["Mithilesh", "mith@google.com"]
